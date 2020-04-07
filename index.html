@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>MarsHikingCo</title>
+  <link href="main.css" type="text/css" rel="stylesheet">
+	
+	<script>
+  $( function() {
+    $( document ).tooltip();
+  } );
+  </script>
+  <style>
+  label {
+    display: inline-block;
+    width: 5em;
+  }
+  </style>
+	<script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	
+</head>
+
+	
+	
+<body>
+  <div id="mainWrapper"> <!--this is the div for the whole page-->
+	
+	
+	
+	<section id="reservations">
+		  <p>Make reservations for your special day.</p>
+		  <form>
+			  <label for="name">Enter your name.</label>
+			  <input type="text" id="name" value="" title="This is the name the reservation will be under.">
+			  
+			  <label for="pSize">Size of your group.</label>
+			  <input for="pSize" type="text" value="" title="We need a group size to select the right table.">
+			  
+			  <label for="date">Select a date.</label>		 
+			  <input id="datepicker" type="text" value=""> <!--This uses the jQuery datepicker tool_-->
+			  
+			  <br><br>
+			  <label for="requests">Enter any special request.</label>
+			  <input id="requests" type="text" value="" title="Please enter any special request">
+			  
+			  <input id="submit" type="submit" value="Submit">
+		  </form>
+		  
+	  </section>
+	
+	
+	
+	
+  </div>  <!--this is the ending div for mainWrapper-->
+	
+</body>
+</html>
