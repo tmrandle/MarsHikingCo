@@ -4,7 +4,9 @@
 <meta charset="utf-8">
   <title>MarsHikingCo</title>
   <link href="main.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/wbv1obw.css">  <!--This is for the Adobe font used-->
 	
+	<!--This is for the tooltip tool from JQuery-->
 	<script>
   $( function() {
     $( document ).tooltip();
@@ -22,17 +24,51 @@
   } );
   </script>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-	
+  
 </head>
 
 	
 	
 <body>
   <div id="mainWrapper"> <!--this is the div for the whole page-->
+    
+	  <header>
+		  <h1 id="tagline">Hikes that are out of this world!</h1>
+		  <img id="logo" src="assests/marsLogo2.png" alt="Mars Hiking Co. Logo">
+	  </header>
+	  
+	  <nav>
+		  <ul>
+			<li><a href="aboutUs.html">About Us</a></li>
+			<li><a href="ContactUs.html">Contact Us</a></li>
+			<li><a href="PreparationTips.html">Preparation and Tips</a></li>  
+		  </ul>
+	  </nav>
+	  
+	  <section class="hikes">
+	    <article id="roverHikes">
+			<a href="roverHikes.html"><img src="assests/westRimofEndeavour~small.jpg" alt="Endenvour Crater View"></a>
+			<h2>Rover Hikes</h2>
+			<p>This is the view from the of some of the sand dunes from the Endeavour Crater.</p>
+		</article>
+		  
+		<article id="northernHikes">
+		    <img src="assests/marathonValleyOverlook~small.jpg"  alt="Marathon Valley Overlook">
+			<h2>Northern Hikes</h2>
+			<p>This is a view of some neat geology.</p>
+		  
+		</article>  
+		  
+		<article id="SouthernHikes">
+		  
+		  
+		</article>  
+		  
+	  </section> <!--ending section for the hikes-->
 	
 	
 	
-	<section id="reservations">
+	<!--<section id="reservations">
 		  <p>Make reservations for your special day.</p>
 		  <form>
 			  <label for="name">Enter your name.</label>
@@ -44,14 +80,18 @@
 			  <label for="date">Select a date.</label>		 
 			  <input id="datepicker" type="text" value=""> <!--This uses the jQuery datepicker tool_-->
 			  
-			  <br><br>
+			 <!-- <br><br>
 			  <label for="requests">Enter any special request.</label>
 			  <input id="requests" type="text" value="" title="Please enter any special request">
 			  
 			  <input id="submit" type="submit" value="Submit">
-		  </form>
+		  </form>  
 		  
-	  </section>
+	  </section> -->
+	  
+	  <footer>
+		  <p>Images credits Background Image: NASA/JPL/Malin Space Science Systems. <br> All hikes are fictional and are for entertainment and imagination purposes only.</p>
+	  </footer>
 	
 	
 	
