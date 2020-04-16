@@ -72,7 +72,7 @@ nav a{
 	
 }*/
 
-#roverHikes img{
+#roverPic img{
 	height: 200px;
 	width: 300px;
 	margin: 0px 10px 0px 50px;
@@ -84,8 +84,16 @@ nav a{
 	border-radius: 10px 10px 0px 0px;
 		}
 
+#roverPic p{
+	margin: -18px 0px 0px 60px;
+	padding: 0px;
+	border: none;
+	font-size: 11px;
+	color: white;
+}
+
 #roverHikes h2{
-	margin: -5px 10px 10px 70px
+	margin: -128px 10px 10px 70px
 	
 }
 
@@ -105,7 +113,7 @@ nav a{
 	float: left;
 }
 
-#northernHikes img{
+#northernPic img{
    	height: 200px;
 	width: 300px;
 	margin: 0px 10px 0px 50px;
@@ -117,11 +125,21 @@ nav a{
 	border-radius: 10px 10px 0px 0px;
 }
 
-#northernHikes h2{
-	margin: -5px 10px 10px 70px;
+#northernPic p{
+	margin: -18px 0px 0px 60px;
+	padding: 0px;
+	font-size: 10px;
+	border: none;
+	color: white;
 }
 
-northernHikes p{
+
+
+#northernHikes h2{
+	margin: -128px 10px 10px 70px;
+}
+
+#northernHikes p{
 	height: 140px;
 	width: 300px;
 	margin: -36px 10px 20px 50px;
