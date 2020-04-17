@@ -13,7 +13,7 @@ body{
 
 #mainWrapper{
     width: 1200px;
-    height: 100%;
+    height: 900px;
     margin: 0px auto;
     background-color: rgba(253,253,253,1.00);
 }
@@ -67,15 +67,10 @@ nav a{
 	color: rgba(0,0,0,1.00);
 }
 
-/*.hikes{
-	float: left;
-	
-}*/
-
 #roverPic img{
 	height: 200px;
 	width: 300px;
-	margin: 0px 10px 0px 50px;
+	margin: 50px 10px 0px 50px;
 	padding: 0px;
 	border-top: 4px solid black;
 	border-right: 4px solid black;
@@ -85,22 +80,22 @@ nav a{
 		}
 
 #roverPic p{
-	margin: -18px 0px 0px 60px;
+	margin: -22px 0px 0px 60px;
 	padding: 0px;
-	border: none;
+	/*border: none;*/
 	font-size: 11px;
 	color: white;
 }
 
 #roverHikes h2{
-	margin: -128px 10px 10px 70px
+	margin: 5px 10px 10px 70px
 	
 }
 
 #roverHikes p{
 	height: 140px;
 	width: 300px;
-	margin: -36px 10px 20px 50px;
+	margin: -38px 10px 100px 50px;
 	padding: 30px 10px 10px 10px;
 	border-right: 4px solid;
 	/*border-top: 2px solid;*/
@@ -109,24 +104,27 @@ nav a{
 	border-radius: 0px 0px 10px 10px;
 	}
 
-#roverHikes{
+#rover{
 	float: left;
 }
+
 
 #northernPic img{
    	height: 200px;
 	width: 300px;
-	margin: 0px 10px 0px 50px;
+	margin: 50px 10px 0px 100px;
 	padding: 0px;
 	border-top: 4px solid black;
 	border-right: 4px solid black;
-	/*border-bottom: 2px solid black;*/
+	border-bottom: none;
 	border-left: 4px solid black;
 	border-radius: 10px 10px 0px 0px;
 }
 
 #northernPic p{
-	margin: -18px 0px 0px 60px;
+	/*height: 10px;
+	width: 300px;*/
+	margin: -22px 0px 0px 110px;
 	padding: 0px;
 	font-size: 10px;
 	border: none;
@@ -136,13 +134,15 @@ nav a{
 
 
 #northernHikes h2{
-	margin: -128px 10px 10px 70px;
+	/*height:30px;
+	width: 300px;*/
+	margin: 5px 10px 10px 120px;
 }
 
 #northernHikes p{
 	height: 140px;
 	width: 300px;
-	margin: -36px 10px 20px 50px;
+	margin: -36px 10px 100px 100px;
 	padding: 30px 10px 10px 10px;
 	border-right: 4px solid;
 	/*border-top: 2px solid;*/
@@ -151,7 +151,7 @@ nav a{
 	border-radius: 0px 0px 10px 10px;
 	}
 
-#northernHikes{
+#northern{
 	float: left;
 }
 
