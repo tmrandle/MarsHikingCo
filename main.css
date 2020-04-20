@@ -32,8 +32,10 @@ header{
 	float: right;
 	margin: 55px 220px 55px 150px;
 	font-family: acme-gothic, sans-serif; 
-    font-weight: 475; 
+    font-weight: 400; 
+	font-size: 25pt;
     font-style: normal; 
+	
 }
 
 header img{
@@ -57,10 +59,12 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin: 0px 105px 20px 100px;
+	margin: 0px 90px 20px 100px;
 	padding: 0px 15px 10px 50px;
 	color: rgba(0,0,0,1.00);
-	font-family:"Myriad Pro","sans-serif";
+	/*font-family:"Myriad Pro","sans-serif";*/
+	font-family: myriad-pro-semiextended, sans-serif;
+	font-size: 13pt;
 }
 
 nav a{
@@ -88,20 +92,24 @@ nav a{
 }
 
 #roverHikes h2{
-	margin: 5px 10px 10px 70px
+	margin: -5px 10px 0px 70px;
+
+	/*font-family: acme-gothic, sans-serif; */
 	
+	font-family: adorn-roman, sans-serif;
 }
 
 #roverHikes p{
 	height: 140px;
 	width: 300px;
-	margin: -38px 10px 100px 50px;
-	padding: 30px 10px 10px 10px;
+	margin: -47px 10px 100px 50px;
+	padding: 35px 10px 10px 10px;
 	border-right: 4px solid;
 	/*border-top: 2px solid;*/
 	border-bottom: 4px solid;
 	border-left: 4px solid;
 	border-radius: 0px 0px 10px 10px;
+	font-family: myriad-pro-semiextended, sans-serif;
 	}
 
 #rover{
@@ -149,6 +157,7 @@ nav a{
 	border-bottom: 4px solid;
 	border-left: 4px solid;
 	border-radius: 0px 0px 10px 10px;
+	font-family: myriad-pro-semiextended, sans-serif;
 	}
 
 #northern{
@@ -164,6 +173,7 @@ footer{
 	color:rgba(253,253,253,1.00);
 	text-align: center;
 	clear: both;
+	font-family: myriad-pro-semiextended, sans-serif;
 }
 
 
