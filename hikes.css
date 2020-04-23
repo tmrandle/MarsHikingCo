@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*This is so that the padding and margins added later don't affect the box sizes*/
 *{
 	box-sizing: border-box;
 }
@@ -59,7 +58,7 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin: 0px 160px 20px 110px;
+	margin: 0px 160px 20px 1010px;
 	padding: 0px 15px 10px 50px;
 	color: rgba(0,0,0,1.00);
 	/*font-family:"Myriad Pro","sans-serif";*/
@@ -70,10 +69,51 @@ nav li{
 nav a{
 	color: rgba(0,0,0,1.00);
 }
-
-#roverPic img{
+#hike1Pic img{
 	height: 280px;
-	width: 360px;
+	width: 400px;
+	margin: 50px 15px 0px 235px;
+	padding: 0px;
+	border-top: 4px solid black;
+	border-right: 4px solid black;
+	/*border-bottom: 2px solid black;*/
+	border-left: 4px solid black;
+	border-radius: 10px 10px 0px 0px;
+		}
+
+#hike1Pic p{
+	margin: -22px 0px 0px 245px;
+	padding: 0px;
+	/*border: none;*/
+	font-size: 11px;
+	color: white;
+}
+
+#hikes1 h2{
+	margin: -5px 10px 0px 255px;
+	font-family: adorn-roman, sans-serif;
+	color: black;
+}
+
+#hikes1 p{
+	height: 200px;
+	width: 400px;
+	margin: -47px 10px 100px 235px;
+	padding: 45px 10px 10px 10px;
+	border-right: 4px solid;
+	/*border-top: 2px solid;*/
+	border-bottom: 4px solid;
+	border-left: 4px solid;
+	border-radius: 0px 0px 10px 10px;
+	font-family: myriad-pro-semiextended, sans-serif;
+	}
+
+#hike1{
+	float: left;
+}
+#hike2Pic img{
+	height: 280px;
+	width: 400px;
 	margin: 50px 15px 0px 85px;
 	padding: 0px;
 	border-top: 4px solid black;
@@ -83,7 +123,7 @@ nav a{
 	border-radius: 10px 10px 0px 0px;
 		}
 
-#roverPic p{
+#hike2Pic p{
 	margin: -22px 0px 0px 95px;
 	padding: 0px;
 	/*border: none;*/
@@ -91,15 +131,15 @@ nav a{
 	color: white;
 }
 
-#roverHikes h2{
+#hikes2 h2{
 	margin: -5px 10px 0px 105px;
 	font-family: adorn-roman, sans-serif;
 	color: black;
 }
 
-#roverHikes p{
+#hikes2 p{
 	height: 200px;
-	width: 360px;
+	width: 400px;
 	margin: -47px 10px 100px 85px;
 	padding: 45px 10px 10px 10px;
 	border-right: 4px solid;
@@ -110,100 +150,11 @@ nav a{
 	font-family: myriad-pro-semiextended, sans-serif;
 	}
 
-#rover{
+#hike2{
 	float: left;
 }
 
-#northernPic img{
-   	height: 280px;
-	width: 360px;
-	margin: 50px 10px 0px 50px;
-	padding: 0px;
-	border-top: 4px solid black;
-	border-right: 4px solid black;
-	border-bottom: none;
-	border-left: 4px solid black;
-	border-radius: 10px 10px 0px 0px;
-}
 
-#northernPic p{
-	/*height: 10px;
-	width: 300px;*/
-	margin: -22px 0px 0px 60px;
-	padding: 0px;
-	font-size: 10px;
-	border: none;
-	color: white;
-}
-
-#northernHikes h2{
-	/*height:30px;
-	width: 300px;*/
-	margin: -5px 10px 10px 70px;
-	font-family: adorn-roman, sans-serif;
-	color: black;
-}
-
-#northernHikes p{
-	height: 200px;
-	width: 360px;
-	margin: -55px 10px 100px 50px;
-	padding: 45px 10px 10px 10px;
-	border-right: 4px solid;
-	/*border-top: 2px solid;*/
-	border-bottom: 4px solid;
-	border-left: 4px solid;
-	border-radius: 0px 0px 10px 10px;
-	font-family: myriad-pro-semiextended, sans-serif;
-	}
-
-#northern{
-	float: left;
-}
-
-#southernPic img{
-	height: 280px;
-	width: 360px;
-	margin: 50px 10px 0px 50px;
-	padding: 0px;
-	border-top: 4px solid black;
-	border-right: 4px solid black;
-	border-bottom: none;
-	border-left: 4px solid black;
-	border-radius: 10px 10px 0px 0px;
-	
-}
-
-#southernPic p{
-	margin: -22px 0px 0px 60px;
-	padding: 0px;
-	font-size: 10px;
-	border: none;
-	color: white;
-}
-
-#southernHikes h2{
-	margin: -5px 10px 10px 70px;
-	font-family: adorn-roman, sans-serif;
-	color: black;
-}
-
-#southernHikes p{
-	height: 200px;
-	width: 360px;
-	margin: -55px 10px 100px 50px;
-	padding: 45px 10px 10px 10px;
-	border-right: 4px solid;
-	/*border-top: 2px solid;*/
-	border-bottom: 4px solid;
-	border-left: 4px solid;
-	border-radius: 0px 0px 10px 10px;
-	font-family: myriad-pro-semiextended, sans-serif;
-}
-
-#southern {
-	float: left;
-}
 footer{
 	height: 100px;
 	width: 100%;
@@ -215,6 +166,3 @@ footer{
 	clear: both;
 	font-family: myriad-pro-semiextended, sans-serif;
 }
-
-
-
