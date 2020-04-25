@@ -11,15 +11,15 @@ body{
 }
 
 #mainWrapper{
-    width: 1200px;
-    height: 900px;
+    width: 1500px;
+    height: 100%;
     margin: 0px auto;
     background-color: rgba(253,253,253,1.00);
 }
 
 header{
 	heigth: 250px;
-	width: 1200px;
+	width: 100%;
 	margin: 20px 0px 0px 0px;
 	background-color: #cb4e41;
 			
@@ -29,7 +29,7 @@ header{
 	text-align: right;
 	color:rgba(253,253,253,1.00);
 	float: right;
-	margin: 55px 220px 55px 150px;
+	margin: 55px 350px 55px 150px;
 	font-family: acme-gothic, sans-serif; 
     font-weight: 400; 
 	font-size: 25pt;
@@ -46,7 +46,7 @@ header img{
 
 nav{
 	height: 50px;
-	width: 1200px;
+	width: 100%;
 	background-color: #FACC5C;
 	margin: 0px 0px 10px 0px;
 	padding: 1px;
@@ -58,7 +58,7 @@ nav ul{
 
 nav li{
 	display: inline-block;
-	margin: 0px 150px 20px 100px;
+	margin: 0px 0px 20px 380px;
 	padding: 0px 15px 10px 50px;
 	color: rgba(0,0,0,1.00);
 	/*font-family:"Myriad Pro","sans-serif";*/
@@ -71,17 +71,19 @@ nav a{
 }
 
 #map{
+	height: 521px;
+	width: 675px;
     float: left;
-    margin: 30px;
+    margin: 30px 25px 30px 85px;
     border: solid;
     padding: 0px;	
 }
 
 #mapInfo{
-	height: 330px;
-	width: 660px;
-	margin: 30px 20px;
-	padding: 15px;
+	height: 400px;
+	width: 500px;
+	margin: 85px 10px 50px 75px;
+	padding: 20px 25px 25px 45px;
     border: thick solid;
 	float: left;
 }
@@ -90,27 +92,45 @@ nav a{
 /*list-style: none;*/
 	line-height: 40px;
 	font-family:myriad-pro-semiextended, sans-serif;
-	font-size: 14pt;
+	font-size: 16pt;
 	
 }
 
 #firstList{
 	text-align: left;
 	float: left;
-	
 }
 
-#secondList{
-	text-align:left;
-	float:left;
+#elevation{
+	margin: 75px 10px 60px 15px;
+	float: left;
 }
 
+#copyText h2{
+	margin: 0px 0px -10px 0px;
+	font-family: adorn-roman, sans-serif;
+	font-size: 25pt;
+}
+
+#copyText P{
+	font-family:myriad-pro-semiextended, sans-serif;
+	font-size: 16pt;
+}
+
+
+#copyText{
+	float: left;
+	height: 400px;
+	width: 550px;
+	margin: 5px 10px 50px 75px;
+	padding: 20px 25px 25px 45px;
+}
 
 
 
 footer{
 	height: 100px;
-	width: 1200px;
+	width: 100%;
 	margin: 20px 0px 0px 0px;
 	padding: 10px;
 	background-color: #cb4e41;
