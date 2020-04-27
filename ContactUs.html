@@ -4,50 +4,112 @@
 <meta charset="utf-8">
 <title>Contact Us</title>
 	
+	<link href="contactUs.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/wbv1obw.css">  <!--This is for the Adobe font used-->  
+	
 	<!--This is for the tooltip tool from JQuery-->
-	<script>
-  $( function() {
-    $( document ).tooltip();
-  } );
-  </script>
-  <style>
+	<style>
   label {
+    display: inline-block; width: 5em;
+  }
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
     display: inline-block;
-    width: 5em;
+  }
+  .ui-tooltip {
+    width: 210px;
   }
   </style>
 	<script>
   $( function() {
-    $( "#datepicker" ).datepicker();
+    var tooltips = $( "[title]" ).tooltip({
+      position: {
+        my: "left top",
+        at: "right+5 top-5",
+        collision: "none"
+      }
+    });
+    $( "<button>" )
+      .text( "Show help" )
+      .button()
+      .on( "click", function() {
+        tooltips.tooltip( "open" );
+      })
+      .insertAfter( "form" );
   } );
   </script>
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+ 
+ 
 	
 	
 </head>
 
 <body>
-	<section id="reservations">
-		  <p>Make reservations for your special day.</p>
+	<div id="mainWrapper"> <!--this is the div for the whole page-->
+    
+	  <header>
+		  <h1 id="tagline">Hikes that are out of this world!</h1>
+		  <img id="logo" src="assests/marsLogo2.png" alt="Mars Hiking Co. Logo">
+	  </header>
+	  
+	  <nav>
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+		  </ul>
+	  </nav>
+		
+	
+	<section id="contactInfo">
+		  <p>If you would like us to get back with you, please fill out the form below.  We will contact you soon.</p>
 		  <form>
-			  <label for="name">Enter your name.</label>
-			  <input type="text" id="name" value="" title="This is the name the reservation will be under.">
-			  
-			  <label for="pSize">Size of your group.</label>
-			  <input for="pSize" type="text" value="" title="We need a group size to select the right table.">
-			  
-			  <label for="date">Select a date.</label>		 
-			  <input id="datepicker" type="text" value=""> <!--This uses the jQuery datepicker tool_-->
+			  <fieldset>
+			   <div>	  
+			    <label for="name">Enter your name.</label>
+			    <input type="text" id="name" value="" title="Please enter your first and last name.">
+			   </div>
+				  
+			   <div>
+			    <label for="phone">Phone number</label>
+			    <input id="phone" type="text" value="" title="Please enter a phone number we can reach you at if we have any questions.">
+		       </div>
+				  
+			   <div>
+			    <label for="email">E-mail address</label>		 
+			    <input id="email" type="text" value="" title="Please enter an e-mail address."> 
+			   </div>
 			  
 			 <br><br>
-			  <label for="requests">Enter any special request.</label>
-			  <input id="requests" type="text" value="" title="Please enter any special request">
+			  <div>
+			   <label for="addInfo">Additional information</label>
+			   <input id="addInfo" type="text" value="" title="Please enter any additional information.">
+			  </div>
 			  
 			  <input id="submit" type="submit" value="Submit">
+			  </fieldset>
 		  </form>  
 		  
 	  </section>
+		
+		<section id="ourInfo">
+			<ul id="address">
+				<li>Mars Hiking Co.</li>
+				<li>233 Imagination Lane</li>
+				<li>Somewhere, Colorado 32325</li>
+			</ul>
+			
+			<p id="ourPhone">Phone Number: 1(000) 123-123-1234</p>
+			<p id="ourEmail">E-mail address: MarsHikingCo@imaginationlane.com</p>
+		
+		</section>
+		
+		
+		
+	<footer>
+		<p>Background Image Credit: NASA/JPL/Malin Space Science Systems. <br> Mars Hiking Co. Providing information about hikes on Mars for your Imagination.</p>
+	</footer>       	
 	  
-	
+	</div> <!-- this is the ending for mainWrapper-->
 </body>
 </html>

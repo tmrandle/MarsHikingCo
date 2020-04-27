@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("assests/Mars~orig.jpg");
+	
+}
+
+
+
+header{
+	heigth: 250px;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	background-color: #cb4e41;
+			
+}
+
+#tagline{
+	text-align: right;
+	color:rgba(253,253,253,1.00);
+	float: right;
+	margin: 55px 350px 55px 150px;
+	font-family: acme-gothic, sans-serif; 
+    font-weight: 400; 
+	font-size: 25pt;
+    font-style: normal; 
+	
+}
+
+header img{
+	margin: 12px 0px 10px 90px;
+	padding: 15px 15px 15px 15px;
+	background-color: rgba(253,253,253,1.00) ;
+	
+}
+
+nav{
+	height: 50px;
+	width: 100%;
+	background-color: #FACC5C;
+	margin: 0px 0px 10px 0px;
+	padding: 1px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0px 0px 20px 950px;
+	padding: 0px 15px 10px 50px;
+	color: rgba(0,0,0,1.00);
+	/*font-family:"Myriad Pro","sans-serif";*/
+	font-family: myriad-pro-semiextended, sans-serif;
+	font-size: 13pt;
+}
+
+nav a{
+	color: rgba(0,0,0,1.00);
+}
+
+#contactInfo{
+	height: 550px;
+	width: 1200px;
+	background-color: rgba(249,249,249,1.00);
+	margin:30px auto;
+	padding: 50px 80px;
+	font-family: myriad-pro-semiextended, sans-serif;	
+}
+
+#ourInfo{
+	height: 200px;
+	width: 1200px;
+	background-color: rgba(249,249,249,1.00);
+	margin:30px auto;
+	padding: 50px 80px;
+	font-family: myriad-pro-semiextended, sans-serif;	
+}
+
+
+
+footer{
+	height: 100px;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 10px;
+	background-color: #cb4e41;
+	color:rgba(253,253,253,1.00);
+	text-align: center;
+	clear: both;
+	font-family: myriad-pro-semiextended, sans-serif;
+}

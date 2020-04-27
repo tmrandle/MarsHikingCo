@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("assests/Mars~orig.jpg");
+	
+}
+
+#mainWrapper{
+    width: 1400px;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgba(253,253,253,1.00);
+}
+
+header{
+	heigth: 250px;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	background-color: #cb4e41;
+			
+}
+
+#tagline{
+	text-align: right;
+	color:rgba(253,253,253,1.00);
+	float: right;
+	margin: 55px 220px 55px 150px;
+	font-family: acme-gothic, sans-serif; 
+    font-weight: 400; 
+	font-size: 25pt;
+    font-style: normal; 
+	
+}
+
+header img{
+	margin: 12px 0px 10px 90px;
+	padding: 15px 15px 15px 15px;
+	background-color: rgba(253,253,253,1.00) ;
+	
+}
+
+nav{
+	height: 50px;
+	width: 100%;
+	background-color: #FACC5C;
+	margin: 0px 0px 20px 0px;
+	padding: 1px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin: 0px 160px 20px 950px;
+	padding: 0px 15px 10px 50px;
+	color: rgba(0,0,0,1.00);
+	/*font-family:"Myriad Pro","sans-serif";*/
+	font-family: myriad-pro-semiextended, sans-serif;
+	font-size: 13pt;
+}
+
+nav a{
+	color: rgba(0,0,0,1.00);
+}
+
+#pic{
+	float: left;
+}
+#pic img{
+	height: 280px;
+	width: 400px;
+	margin: 110px 30px 200px 80px;
+	padding: 0px;
+	border: thick solid black;
+}
+
+#pic p{
+	margin: -22px 0px 0px 110px;
+	padding: 0px;
+	font-size: 11px;
+	color: white;
+}
+
+#copyText{
+	height: 280px;
+	width: 550px;
+	margin: 50px 80px 200px 30px;
+	font-family: myriad-pro-semiextended, sans-serif;
+	float: left;
+
+}
+
+#copyText h1{
+	font-family: adorn-roman, sans-serif;
+	color: black;
+	font-size: 30px;
+}
+
+#us {
+	height:480px;
+	width: 1200px;
+	background-color: antiquewhite;
+	/*background-color: #c7b299;*/
+	margin: 100px;
+}
+
+#copyText2{
+	height: auto;
+	width: 800px;
+	margin: 80px;
+	font-family: myriad-pro-semiextended, sans-serif;
+	float: left;
+}
+
+#copyText2 li{
+	list-style: none;
+}
+
+#art img{
+	height: 300px;
+	width: 300px;
+}
+#art{
+	margin: 280px 20px 50px 30px;
+	heigth: 300px;
+	width: 300px;
+	float: left;
+}
+
+footer{
+	height: 100px;
+	width: 100%;
+	margin: 20px 0px 0px 0px;
+	padding: 10px;
+	background-color: #cb4e41;
+	color:rgba(253,253,253,1.00);
+	text-align: center;
+	clear: both;
+	font-family: myriad-pro-semiextended, sans-serif;
+}
+
