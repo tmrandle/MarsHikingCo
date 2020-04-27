@@ -14,8 +14,8 @@ body{
 
 header{
 	heigth: 250px;
-	width: 100%;
-	margin: 20px 0px 0px 0px;
+	width: 1400px;
+	margin: 0px auto;
 	background-color: #cb4e41;
 			
 }
@@ -41,9 +41,9 @@ header img{
 
 nav{
 	height: 50px;
-	width: 100%;
+	width: 1400px;
 	background-color: #FACC5C;
-	margin: 0px 0px 10px 0px;
+	margin: 0px auto;
 	padding: 1px;
 }
 
@@ -136,8 +136,8 @@ nav a{
 
 footer{
 	height: 100px;
-	width: 100%;
-	margin: 20px 0px 0px 0px;
+	width: 1400px;
+	margin: 0px auto;
 	padding: 10px;
 	background-color: #cb4e41;
 	color:rgba(253,253,253,1.00);
